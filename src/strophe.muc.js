@@ -1,8 +1,4 @@
-(function (global, factory) {
-	typeof exports === 'object' && typeof module !== 'undefined' ? factory(require('strophe.js')) :
-	typeof define === 'function' && define.amd ? define(['strophe.js'], factory) :
-	(factory(global.window));
-}(this, (function (strophe_js) { 'use strict';
+'use strict';
 
 /*
  *Plugin to implement the MUC extension.
@@ -12,7 +8,7 @@
  *Complete CoffeeScript rewrite:
     Andreas Guth <guth@dbis.rwth-aachen.de>
  */
-
+var strophe_js = require('react-strophe');
 var Occupant;
 var RoomConfig;
 var XmppRoom;
@@ -1151,7 +1147,4 @@ Occupant = (function() {
 
   return Occupant;
 
-})();
-
-})));
-//# sourceMappingURL=strophe.muc.js.map
+});
