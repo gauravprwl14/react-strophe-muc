@@ -1,6 +1,6 @@
 {
   "name": "react-strophejs-plugin-muc",
-  "version": "1.1.0.1",
+  "version": "1.1.0.alpha-1",
   "description": "A strophe.js plugin for Multi-User Chat (XEP-0045)",
   "main": "src/strophe.muc.js",
   "directories": {
