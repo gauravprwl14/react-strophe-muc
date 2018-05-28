@@ -19,7 +19,8 @@
     "url": "https://github.com/strophe/strophejs-plugin-muc/issues"
   },
   "homepage": "https://github.com/strophe/strophejs-plugin-muc#readme",
-  "dependencies": {
-    "react-strophe": "1.2.1-5.1"
+  "dependencies": {},
+  "peerDependencies": {
+    "react-strophe": "1.2.1-5.2"
   }
 }
